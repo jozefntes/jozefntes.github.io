@@ -1,10 +1,44 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
+import Layout from "../layouts/Layout.astro";
+import Card from "../components/Card.astro";
+import Badge from "../components/Badge.astro";
+import GitHubIcon from "../components/icons/GitHub.astro";
+import LinkedInIcon from "../components/icons/LinkedIn.astro";
 ---
 
 <Layout title="Welcome to Astro.">
-	<main>
-		
-	</main>
+  <main>
+    <section class="w-full mx-auto lg:w-[740px] py-10">
+      <h1 class="text-white text-5xl font-bold flex flex-row gap-x-4 pb-4">
+        Hey, I am Jose <a
+          href="https://www.linkedin.com/in/jose-fuentes1018/"
+          target="_blank"
+          rel="noopener"
+          class="flex justify-center items-center"
+        >
+          <Badge>Available</Badge>
+        </a>
+      </h1>
+      <h2 class="text-2xl text-wrap">
+        <span class="text-yellow-200/90 opacity-85">
+          Computer Science student at the University of Texas Rio Grande Valley.
+        </span>
+        <span> From Tamaulipas, Mexico.</span>
+        <span class="text-red-200/90"> Living in Edinburg, Texas.</span>
+        <span class="opacity-75">
+          I am passionate about learning new technologies and building cool
+          stuff.
+        </span>
+      </h2>
+
+      <ul>
+        <li>
+          <a href='https://www.linkedin.com/in/jose-fuentes1018/"'>
+            <LinkedInIcon />
+            LinkedIn
+          </a>
+        </li>
+      </ul>
+    </section>
+  </main>
 </Layout>
