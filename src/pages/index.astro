@@ -4,11 +4,16 @@ import Card from "../components/Card.astro";
 import Badge from "../components/Badge.astro";
 import GitHubIcon from "../components/icons/GitHub.astro";
 import LinkedInIcon from "../components/icons/LinkedIn.astro";
+import SocialPill from "../components/SocialPill.astro";
+import MailIcon from "../components/icons/Mail.astro";
+import Experience from "../components/Experience.astro";
+import SectionContainer from "../components/SectionContainer.astro";
+import BriefcaseIcon from "../components/icons/Briefcase.astro";
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout title="Jose's Portfolio - Computer Science Student" description="TODO">
   <main>
-    <section class="w-full mx-auto lg:w-[740px] py-10">
+    <SectionContainer class="py-44 pb-24">
       <h1 class="text-white text-5xl font-bold flex flex-row gap-x-4 pb-4">
         Hey, I am Jose <a
           href="https://www.linkedin.com/in/jose-fuentes1018/"
@@ -31,14 +36,28 @@ import LinkedInIcon from "../components/icons/LinkedIn.astro";
         </span>
       </h2>
 
-      <ul>
-        <li>
-          <a href='https://www.linkedin.com/in/jose-fuentes1018/"'>
-            <LinkedInIcon />
-            LinkedIn
-          </a>
-        </li>
-      </ul>
-    </section>
+      <nav class="flex gap-x-4 mt-8">
+        <SocialPill href="https://www.linkedin.com/in/jose-fuentes1018/">
+          <LinkedInIcon class="size-6" />
+          LinkedIn
+        </SocialPill>
+        <SocialPill href="https://www.github.com/jozefntes">
+          <GitHubIcon class="size-6" />
+          GitHub
+        </SocialPill>
+        <SocialPill href="https://www.github.com/jozefntes">
+          <MailIcon class="size-6" />
+          fuentesjosee03@gmail.com
+        </SocialPill>
+      </nav>
+    </SectionContainer>
+
+    <SectionContainer id="experience">
+      <h2 class="text-4xl font-semibold mb-6 flex gap-x-3 items-center">
+        <BriefcaseIcon class="size-7" />
+        Experience
+      </h2>
+      <Experience />
+    </SectionContainer>
   </main>
 </Layout>
