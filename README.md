@@ -1,54 +1,40 @@
-# Astro Starter Kit: Basics
+# Jose's Software Engineering Portfolio
 
-```sh
-npm create astro@latest -- --template basics
-```
+Welcome to my software engineering portfolio! This repository serves as a showcase of my skills and projects, demonstrating my passion for coding and problem-solving.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+## 🌐 Portfolio Highlights:
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+- **To-Do App:** Used JavaFX to create a GUI desktop To-Do App that would allow users to view/create tasks, allowing them to have a visual representation of their duties due in a certain order or priority hierarchy. The app also allows users to mark tasks as completed, delete them, and save the tasks to a local database.
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+## 💼 Skills:
 
-## 🚀 Project Structure
+- **Languages:** C++, Java, Ruby, Python
+- **Frameworks:** Rails, Sinnatra, React
+- **Tools:** Git, Github
 
-Inside of your Astro project, you'll see the following folders and files:
+## 🎓 Education:
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+- **Bachelor of Science in Computer Science, Minor in Art**
+    - University of Texas Rio Grande Valley
+    - Expected May 2025
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+    ### 📚 Relevant Coursework
+    - Algorithms & Data Structures
+    - Software Engineering I
+    - Mathematical Foundations of CS
+    - Systems Programming
+    - Object Oriented Programming in Java
+    - Computer Org. & Assembly Lang.
+    - Programming in the UNIX/Linux Environment
+    - Computer Science II
+    - Computer Science I
+    - Intro to Computer Science
+    
+## 🔗 Connect with Me:
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+- LinkedIn: [jose-fuentes1018](https://www.linkedin.com/in/jose-fuentes1018/)
+- Portfolio Website: [My Portfolio](#)
 
-Any static assets, like images, can be placed in the `public/` directory.
+Feel free to explore the codebase and projects. I am open to collaboration and always eager to contribute to innovative and challenging projects.
 
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+📧 Contact me: [fuentesjosee03@gmail.com](mailto:fuentesjosee03@gmail.com)
