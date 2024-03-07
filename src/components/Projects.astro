@@ -1,0 +1,64 @@
+---
+import JavaIcon from "./icons/Java.astro";
+import SQLiteIcon from "./icons/SQLite.astro";
+import FXMLIcon from "./icons/FXML.astro";
+import MavenIcon from "./icons/Maven.astro";
+const TAGS = {
+  JAVA: {
+    name: "Java",
+    class: "bg-[#e4983d]/20 text-white",
+    icon: JavaIcon,
+  },
+  SQLITE: {
+    name: "SQLite",
+    class: "bg-[#427ac2]/20 text-white",
+    icon: SQLiteIcon,
+  },
+  MAVEN: {
+    name: "Maven",
+    class: "bg-[#aa2f41]/20 text-white",
+    icon: MavenIcon,
+  },
+  FXML: {
+    name: "FXML",
+    class: "bg-blue-700/20 text-white",
+    icon: FXMLIcon,
+  },
+};
+
+const PROJECTS = [
+  {
+    title: "To-Do App",
+    description:
+      "Used JavaFX to create a GUI desktop To-Do App that would allow users to view/create tasks, allowing them to have a visual representation of their duties due in a certain order or priority hierarchy. The app also allows users to mark tasks as completed, delete them, and save the tasks to a local database.",
+    link: "#",
+    github: "https://github.com/jozefntes/todoapp",
+    image: "public/projects/todo.webp",
+    tags: [TAGS.JAVA, TAGS.SQLITE, TAGS.MAVEN, TAGS.FXML],
+  },
+];
+---
+
+{
+  PROJECTS.map(({ image, title, description, tags }) => (
+    <article>
+      <h3 class="text-2xl font-semibold text-yellow-200/90 mb-2">{title}</h3>
+      <p class="text-lg mb-4 text-pretty">{description}</p>
+      <ul class="flex gap-x-2 flex-row mb-2">
+        {tags.map((tag) => (
+          <li>
+            <span class={`flex gap-x-2 rounded-full text-xs ${tag.class} py-1 px-2`}>
+              <tag.icon class="size-4" />
+              {tag.name}
+            </span>
+          </li>
+        ))}
+      </ul>
+      <img
+        class="rounded shadow-2xl shadow-white/10"
+        src={image}
+        alt={`Screenshot of the project ${image}`}
+      />
+    </article>
+  ))
+}
