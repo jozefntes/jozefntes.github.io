@@ -9,7 +9,7 @@ Welcome to my software engineering portfolio! This repository serves as a showca
 ## 💼 Skills:
 
 - **Languages:** C++, Java, Ruby, Python
-- **Frameworks:** Rails, Sinnatra, React
+- **Frameworks:** Rails, Sinatra, React, Astro
 - **Tools:** Git, Github
 
 ## 🎓 Education:
