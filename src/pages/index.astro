@@ -15,15 +15,13 @@ import Projects from "../components/Projects.astro";
 <Layout title="Jose's Portfolio - Computer Science Student" description="TODO">
   <main class="px-6">
     <SectionContainer class="py-16 md:py-36">
-      <img
-        class="rounded-full shadow-lg size-16 mb-4"
-        src="jose.webp"
-        alt="Jose"
-      />
-      <h1
-        class="text-white text-3xl md:text-4xl lg:text-5xl font-bold flex flex-row gap-x-4 pb-6 lg:pb-10"
-      >
-        Hey, I am Jose <a
+      <div class="flex flex-row gap-x-6">
+        <img
+          class="rounded-full shadow-lg size-16 mb-4"
+          src="jose.webp"
+          alt="Jose"
+        />
+        <a
           href="https://www.linkedin.com/in/jose-fuentes1018/"
           target="_blank"
           rel="noopener"
@@ -31,6 +29,12 @@ import Projects from "../components/Projects.astro";
         >
           <Badge>Available</Badge>
         </a>
+      </div>
+
+      <h1
+        class="text-white text-3xl md:text-4xl lg:text-5xl font-bold flex flex-row gap-x-4 pb-6 lg:pb-10"
+      >
+        Hey, I am Jose
       </h1>
       <h2 class="text-xl lg:text-2xl text-wrap max-w-[700px]">
         <span class="text-lime-300">
