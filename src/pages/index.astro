@@ -60,20 +60,26 @@ import Projects from "../components/Projects.astro";
       </nav>
     </SectionContainer>
 
-    <SectionContainer id="experience">
-      <h2 class="text-3xl font-semibold mb-6 flex gap-x-3 items-center">
-        <BriefcaseIcon class="size-7" />
-        Experience
-      </h2>
-      <Experience />
-    </SectionContainer>
+    <div class="space-y-24">
+      <SectionContainer id="experience">
+        <h2 class="text-3xl font-semibold mb-6 flex gap-x-3 items-center">
+          <BriefcaseIcon class="size-7" />
+          Experience
+        </h2>
+        <Experience />
+      </SectionContainer>
 
-    <SectionContainer id="projects">
-      <h2 class="text-3xl font-semibold mb-6 flex gap-x-3 items-center">
-        <CodeIcon class="size-7" />
-        Projects
-      </h2>
-      <Projects />
-    </SectionContainer>
+      <SectionContainer id="projects">
+        <h2 class="text-3xl font-semibold mb-6 flex gap-x-3 items-center">
+          <CodeIcon class="size-7" />
+          Projects
+        </h2>
+        <Projects />
+      </SectionContainer>
+
+      <!-- <SectionContainer id="about-me">
+
+      </SectionContainer> -->
+    </div>
   </main>
 </Layout>
